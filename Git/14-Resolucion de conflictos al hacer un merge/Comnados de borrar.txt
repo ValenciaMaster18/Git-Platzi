@@ -1,0 +1,5 @@
+git reset -------------- borrar commits
+
+git branch -d --------- borrar ramas
+
+git rm ------------------ borrar archivos

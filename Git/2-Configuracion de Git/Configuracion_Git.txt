@@ -1,0 +1,17 @@
+Cuando instala por primera vez git debes hacer una configuración básica y éstas son las siguientes:
+
+git config --global user.name “Aquí va tu nombre”
+
+git config --global user.email “Aquí tu correo electrónico”
+
+git config --global color.ui true Sirve para colorear la mayor parte de los resultados como por ejemplo git log.
+
+git config --list
+
+Ahora si por algún motivo te equivocaste en el nombre o email lo puedes modificar de la siguiente manera:
+
+git config --global --replace-all user.name “Aquí va tu nombre modificado”
+
+O si lo deseas eliminar y añadir uno nuevo
+git config --global --unset-all user.name :Elimina el nombre del usuario
+git config --global --add user.name “Aquí va tu nombre”
