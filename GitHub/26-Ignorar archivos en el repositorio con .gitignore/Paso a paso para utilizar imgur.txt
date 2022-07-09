@@ -1,0 +1,16 @@
+Paso a paso para utilizar imgur
+
+entra en la pagina
+
+sube la imagen (no es necesario estar registrado)
+
+copia la direccion url que se le asigna a la imagen
+
+en tu archivo html dentro la etiqueta para un nuevo parrafo escribre la etiqueta para crear una nueva ancla <a></a>
+
+dentro de los signo de la primera a escribe el vinculo href=tu_url
+
+dentro de la etiqueta para el ancla escribe la etiqueta de la imagen espesificando la direccion, la cual sera igual a la direccion del hipervinculo 
+pero con una i al principio y terminando con .jpg
+
+cierras la etiqueta de ancla y cierras la etiqueta del parrafo

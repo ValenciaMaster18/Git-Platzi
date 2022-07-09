@@ -1,0 +1,14 @@
+A. Para bajarme Repo
+Paso 1: Hacer Fork Directamente en GitHub
+Paso 2: Hacer un clone del repositorio. (Mi Fork “Con mi nombre”)
+Paso 3: Modificarlo
+Paso 4: Hacer push (push origin master)
+Paso 5: Hacer la petición de una PullRequest (Hasta esperar aprobación)
+
+B. Para Descargar cambios directamente del repositorio maestro (El dueño es el Admin “Quien aprueba ó no las PullRequest”)
+Paso 1: git remote add “Nombre (Preferencia upstream)” + Url Repo
+Paso 2: Verificar que se realizo correctamente git remote -v
+Paso 3: Descargar cambios git pull upstream master
+Paso 4: Mandar los cambios de upstream a nuestro origin git push origin master
+
+Listo todo actualizado

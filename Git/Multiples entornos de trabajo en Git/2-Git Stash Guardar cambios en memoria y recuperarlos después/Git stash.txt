@@ -1,0 +1,7 @@
+git stash = guarda los cambios en memoria cuando no quieres hacer un commit aun
+git stash save “mensaje” = guarda un stach con mensaje
+git stash list = lista de todos stash
+git stash pop = trae de vuelta los cambios que teniamos guardados en el ultimo stash
+git stash apply stash@{n} = trae el stash que necesites con indicar su numero dentro de las llaves
+git stash drop = borra el ultimo stash
+git stash clear = borra todos los stash
